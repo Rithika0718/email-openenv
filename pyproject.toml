@@ -1,0 +1,11 @@
+[project]
+name = "email-openenv"
+version = "0.1.0"
+description = "Email assistant OpenEnv environment"
+authors = [
+    { name="Rithika" }
+]
+dependencies = [
+    "pydantic",
+    "openai"
+]
