@@ -1,11 +1,11 @@
-[[build-system]
+[build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "email-openenv"
+name = "email_openenv"
 version = "0.1.0"
-description = "Email assistant OpenEnv environment"
+description = "Email assistant OpenEnv"
 authors = [{ name = "Rithika" }]
 
 dependencies = [
@@ -16,3 +16,6 @@ dependencies = [
 
 [project.scripts]
 server = "server.app:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
